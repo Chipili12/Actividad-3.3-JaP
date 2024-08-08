@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Santiago Burgueño</h1>
+      <p>
+        Soy un desarrollador de software, actualmente centrado en el desarrollo
+        web, con interés tanto en el Front-end como en el Back-end. Sobresalgo
+        en aprender, adaptarme a nuevos entornos y tecnologías, comunicarme
+        eficazmente y trabajar en equipo. Mis mayores fortalezas son mi
+        versatilidad y dedicación para lograr las cosas. Estoy enfocado en
+        alcanzar mis metas y siempre dispuesto a aprender y crecer.
+      </p>
+      <hr />
+    </div>
+    <div class="container" id="experiencia">
+      <h1 id="containerInfo">Experiencia profesional</h1>
+      <table class="tableMargin">
+        <thead>
+          <tr>
+            <th>Empresa / Organizacion</th>
+            <th>Cargo</th>
+            <th>Localización</th>
+            <th>Desde-hasta</th>
+          </tr>
+        </thead>
+
+        <tr>
+          <td class="tabla">OBEÑO SAS</td>
+          <td class="tabla">Ventas y atención al cliente</td>
+          <td class="tabla">Maldonado, Uruguay.</td>
+          <td class="tabla">Marzo 2021 - Abril 2022</td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="container">
+      <h2 id="habilidades">Habilidades y conocimientos</h2>
+      <ul>
+        <li>
+          <strong>Desarrollo web: </strong>Habilidades trabajando con React, NextJS, Python, JavaScript, HTML, CSS, MySQL, Flask, etc.
+        </li>
+        <li>
+          <strong> Diseño: </strong>Habilidades intermedias en diseño utilizando Adobe Photoshop
+        </li>
+        <li>
+          <strong> Habilidades blandas: </strong> SCRUM, trabajo en equipo, gestión de equipos.
+        </li>
+      </ul>
+      <hr />
+    </div>
+    <h2>Contactar</h2>
+      <form id="contacto">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="para" required />
+        <br />
+        <label for="subject">Razón</label>
+        <select id="subject" name="tematica" required>
+          <option value="" disabled selected>-- Elige un tema --</option>
+          <option value="consulta">Consulta</option>
+          <option value="propuesta">Propuesta</option>
+          <option value="reporte">Reporte</option>
+          <option value="otro">Otro</option>
+        </select>
+        <br />
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="topic" name="asunto" required />
+        <br />
+        <label for="cuerpo">Cuerpo:</label>
+        <textarea id="message" name="cuerpo" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+  </body>
+</html>

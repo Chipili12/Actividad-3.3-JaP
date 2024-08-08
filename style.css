@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    place-items: center;
+    background-image: url("https://media1.tenor.com/m/mmy1M4rgo5EAAAAd/dancing-cats-cats.gif");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+    color: blue;
+    background-color: slategray;
+}
+ 
+.container{
+    width: 60%;
+}
+
+.tabla{
+    text-align: center;
+    padding-inline: 10px;
+}
+
+hr{
+    margin-block: 20px ;
+}
+
+form>input,form>select{
+   margin-bottom: 10px;
+}
+
+#containerInfo{
+    padding-bottom: 10px;
+    font-size:xx-large
+}
+
+.tableMargin{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#experiencia{
+    text-align: center;
+}
+
+li{
+    margin-bottom: 5px;
+}
